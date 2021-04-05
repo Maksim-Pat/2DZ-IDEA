@@ -16,14 +16,14 @@
 * IDEA
 В качестве тестовых данных использовались данные:
 Код
- public class Main {
+```public class Main {
     public static void main(String[] args) {
-        int balanse = 2_000_000_000;
+        int balance = 2000_000_000;
         int count = 500_000_000;
-        int total = balanse + count;
+        int total = balance + count;
         System.out.println(total);
-    }
-}
+    }}
+```
 
 Тестирование производилось в следующем окружении:
 
